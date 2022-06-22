@@ -2,7 +2,7 @@
 function heapify(m, i) {
     let right, left, largest = i;
     right = 2 * i + 1;
-    left = left + 1;
+    left = right+ 1;
     let temp;
     if (right < m && a[right] > a[largest]) {
         largest = right;
